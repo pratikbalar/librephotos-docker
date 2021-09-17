@@ -23,7 +23,7 @@ jobs:
 
   build:
     # Ensure test job passes before pushing image.
-    needs: test
+    # needs: test
 
     runs-on: ubuntu-latest
 
