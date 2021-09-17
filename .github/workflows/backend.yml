@@ -9,6 +9,7 @@ on:
       - dev
     paths:
       - 'backend/**'
+      - '.github/workflows/backend.yml'
   # repository_dispatch:
   #   types: backend-commit-event
 

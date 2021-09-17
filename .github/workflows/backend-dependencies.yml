@@ -8,6 +8,7 @@ on:
       - dev
     paths:
       - 'backend/dependencies/**'
+      - '.github/workflows/backend-dependencies.yml'
 
 jobs:
   # Run tests.
